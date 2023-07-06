@@ -1,0 +1,8 @@
+# GitIgnore for Child Care Management System (CCMS) progect
+
+# Ignore the drawio bakup files
+.$*
+
+
+# Ignore all bkp files
+*.bkp
