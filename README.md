@@ -29,7 +29,7 @@ These technologies were carefully selected to ensure the project's ease of use, 
 
 ## Installation and Usage
 
-Clone the repository: git clone https://github.com/your-username/child-care-management-system.git
+Clone the repository: git clone https://github.com/PierAlbertoPierini/ChildCareManagementSystem.git
 Navigate to the project directory: cd child-care-management-system
 Follow the installation instructions for each of the underlying technologies (NoCodeBase, NoCoDB, Rei3, SeaTable) in their respective documentation.
 Customize the system to fit your child care center's specific requirements by configuring the database schemas, workflows, and UI components.
