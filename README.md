@@ -1,6 +1,6 @@
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
-
+<span style="font-weight: bold; color: red;">Please note that CCMS is currently in the early stages of development and is not intended for production use.</span>
 
 # Child Care Management System
 
@@ -76,7 +76,9 @@ Please note that this timeline is subject to change as the project progresses.
 ### Phase 1: Database Design and Calendar Activities
 - [x] Basic database design for children registration
 - [x] Implement calendar activities functionality
-
+- [--] Implementig ccms in NOCOBASE
+- [ ] Implementig ccms in SEATABLE
+- [ ] Implementig ccms in ....
 ### Phase 2: Staff Management and Billing
 - [ ] Develop staff management features (roles, schedules, certifications)
 - [ ] Implement billing and payment functionality
