@@ -1,6 +1,5 @@
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
-<span style="font-weight: bold; color: red;">Please note that CCMS is currently in the early stages of development and is not intended for production use.</span>
 
 # Child Care Management System
 
@@ -26,6 +25,10 @@ NoCoDB: A low-code platform that enables rapid application development and seaml
 Rei3: A no-code platform that offers a visual interface for building web applications without the need for coding.
 SeaTable: An open-source spreadsheet-like database platform that allows for easy data organization, collaboration, and automation.
 These technologies were carefully selected to ensure the project's ease of use, scalability, and maintainability, empowering developers of all skill levels to contribute and extend the functionality of the Child Care Management System.
+
+## Use case note
+
+Please note that the use case and available features of the Child Care Management System (CCMS) can vary depending on the chosen no-code application. For instance, when deploying CCMS with Seatable, the system may leverage forms for data entry and management, providing a streamlined experience. However, Seatable may not support user logins for parents. On the other hand, deploying CCMS with NoCodeBase offers more robust user role management and customizable page features, allowing for tailored user experiences and versatile access controls. The selection of a specific no-code application will influence the functionality and capabilities of CCMS, enabling child care centers to choose the platform that best aligns with their unique requirements.
 
 ## Installation and Usage
 
@@ -66,7 +69,7 @@ If you require customization of the Child Care Management System to suit your sp
 ## License
 The Child Care Management System is released under the MIT License.
 
-## Acknowledgements
+## Acknowledgments
 We would like to express our gratitude to the developers and contributors of NoCodeBase, NoCoDB, Rei3, SeaTable, and other open-source projects that have made this system possible.
 
 ## Project Timeline

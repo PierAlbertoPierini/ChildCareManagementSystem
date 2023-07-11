@@ -1,0 +1,18 @@
+Health/Nutrition
+
+Does your child have sight problems?
+Does your child have hearing problems?
+Does your child have speech problems?
+does your child take medication?
+does your child have a special diet?
+does your child have health problems?
+does your child have any allergies?
+Please specify the boxes checked: YES
+attach a copy of the health record
+indicate vaccination dates below
+diphtheria tetanus whooping cough
+meningitis
+polio
+Measles Mumps Rubella
+Emergency medical contact
+
