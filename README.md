@@ -1,7 +1,24 @@
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
-**SeaTable	 version 0.0.1**
-**NocoBase	 Work in progress**
+
+![ccms - Child Care Management System - logo](ccms-logo.svg)
+
+## ccms Version
+|          | **Seatable** | **NocoBase** | **Rei3** | **Directus** |
+| -------- | ------------ | ------------ | -------- | ------------ |
+| Version  |     0.0.1    |    working   |  working |    working   |
+
+## APPS Feature list
+| APPS Features          | **Seatable** | **NocoBase** | **Rei3** | **Directus** |  **NocoDB**  |
+| ---                    |     ---      |     ---      |    ---   |      ---     |      ---     |
+| Sign up                |              |     Yes      |          |              |              |
+| Forms                  |     Yes      |     Yes      |    Yes   |      Yes     |      Yes     |
+| Calendar               |     Yes      |     No       |    Yes   |      No      |      No      |
+| Roles                  | simple       | complex      | simple   | complex      | complex      |
+| Electonic signature    |     Yes      |              |    No    |              |              |
+| E2EE                   |              |              |    YES   |              |              |
+| Print                  |              |              |          |              |              |
+
 
 # Child Care Management System
 
@@ -81,7 +98,7 @@ Please note that this timeline is subject to change as the project progresses.
 ### Phase 1: Database Design and Calendar Activities
 - [x] Basic database design for children registration
 - [x] Implement calendar activities functionality
-- [--] Implementig ccms in NOCOBASE
+- [ ] Implementig ccms in NOCOBASE
 - [x] Implementig ccms in SEATABLE 
 - [ ] Implementig ccms in ....
 ### Phase 2: Staff Management and Billing

@@ -1,5 +1,3 @@
-Version 0.0.1
-
 # Seatable Directory
 
 This directory contains the necessary files and configurations for deploying the Child Care Management System (CCMS) using Seatable, an open-source spreadsheet-like database platform. Seatable offers a user-friendly interface for organizing, managing, and collaborating on data.
@@ -11,6 +9,8 @@ The files in this directory represent the first release of CCMS on Seatable and 
 ## About Seatable
 
 Seatable provides a flexible and customizable platform for data management, making it an ideal choice for deploying CCMS. By leveraging Seatable's powerful features, child care centers can streamline their operations, including data entry, record management, and reporting.
+
+Link: https://seatable.io/
 
 ## Getting Started
 
