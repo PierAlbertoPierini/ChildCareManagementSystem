@@ -1,3 +1,7 @@
+# Added a Mapping Volume for MySQL data 
+# you can find the original yml file at
+# https://github.com/nocobase/nocobase/tree/main/docker/app-mysql
+
 version: "3"
 networks:
   nocobase:
