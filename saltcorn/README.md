@@ -18,6 +18,10 @@ Configure the CCMS within Saltcorn, setting up tables, relationships, and forms 
 Customize the user interface and workflows using Saltcorn's visual editor to match your child care center's specific requirements.
 Launch the CCMS on Saltcorn and start managing your child care center efficiently.
 
+Defaults:
+- Admin: ccms@example.com Password: 8a55w0rd
+- User:  user@example.com Password: 8a55w0rd
+
 ## Compatibility
 
 CCMS on Saltcorn is compatible with the latest version of the Saltcorn platform. Please ensure that you have a compatible version installed to avoid any compatibility issues.

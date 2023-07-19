@@ -6,7 +6,7 @@
 ## ccms Version
 |          | **Seatable** | **NocoBase** | **Rei3** | **Directus** |
 | -------- | ------------ | ------------ | -------- | ------------ |
-| Version  |     0.0.1    |    working   |  working |    working   |
+| Version  |     1        |              |          |              |
 
 ## APPS Feature list
 | APPS Features          | **Seatable** | **NocoBase** | **Rei3** | **Directus** |  **NocoDB**  |
