@@ -4,21 +4,21 @@
 ![ccms - Child Care Management System - logo](ccms-logo.svg)
 
 ## ccms Version
-|          | **Seatable** | **NocoBase** | **Rei3** | **Directus** |
-| -------- | ------------ | ------------ | -------- | ------------ |
-| Version  |     1        |              |          |              |
+|          | **Seatable** | **NocoBase** | **Rei3** | **Directus** | **Saltcorn** |
+| -------- | ------------ | ------------ | -------- | ------------ | ------------ |
+| Version  |     2        |              |          |              |              |
 
 ## APPS Feature list
-| APPS Features          | **Seatable** | **NocoBase** | **Rei3** | **Directus** |  **NocoDB**  |
-| ---                    |     ---      |     ---      |    ---   |      ---     |      ---     |
-| Sign up                |              |     Yes      |          |              |              |
-| Forms                  |     Yes      |     Yes      |    Yes   |      Yes     |      Yes     |
-| Calendar               |     Yes      |     No       |    Yes   |      No      |      No      |
-| Roles                  | simple       | complex      | simple   | complex      | complex      |
-| Electonic signature    |     Yes      |              |    No    |              |              |
-| E2EE                   |              |              |    YES   |              |              |
-| Print                  |              |              |          |              |              |
-
+| APPS Features          | **Seatable** | **NocoBase** | **Rei3** | **Directus** |  **NocoDB**  |  **Saltcorn**  |
+| ---                    |     ---      |     ---      |    ---   |      ---     |      ---     |      ---       |
+| Sign up                |              |     Yes      |          |              |              |                |
+| Forms                  |     Yes      |     Yes      |    Yes   |      Yes     |      Yes     |      Yes       |
+| Calendar               |     Yes      |     No       |    Yes   |      No      |      No      |      No        |
+| Roles                  | simple       | complex      | simple   | complex      | complex      | complex        |
+| Electonic signature    |     Yes      |              |    No    |              |              |                |
+| E2EE                   |              |              |    YES   |              |              |                |
+| Print                  |              |              |          |              |              |                |
+| Data Integrity         |   built-in   |              |          |   built-in   |              |                |
 
 # Child Care Management System
 
