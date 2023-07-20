@@ -8,17 +8,6 @@
 | -------- | ------------ | ------------ | -------- | ------------ | ------------ |
 | Version  |     2        |              |          |              |              |
 
-## APPS Feature list
-| APPS Features          | **Seatable** | **NocoBase** | **Rei3** | **Directus** |  **NocoDB**  |  **Saltcorn**  |
-| ---                    |     ---      |     ---      |    ---   |      ---     |      ---     |      ---       |
-| Sign up                |              |     Yes      |          |              |              |                |
-| Forms                  |     Yes      |     Yes      |    Yes   |      Yes     |      Yes     |      Yes       |
-| Calendar               |     Yes      |     No       |    Yes   |      No      |      No      |      No        |
-| Roles                  | simple       | complex      | simple   | complex      | complex      | complex        |
-| Electonic signature    |     Yes      |              |    No    |              |              |                |
-| E2EE                   |              |              |    YES   |              |              |                |
-| Print                  |              |              |          |              |              |                |
-| Data Integrity         |   built-in   |              |          |   built-in   |              |                |
 
 # Child Care Management System
 
@@ -34,6 +23,18 @@ Attendance Tracking: Track attendance for children and staff, generate reports, 
 Communication: Enable seamless communication between parents, staff, and administrators through notifications, messages, and announcements.
 Reporting and Analytics: Generate insightful reports and analytics to gain valuable insights into the operations of the child care center.
 Integration: Easily integrate with other systems or platforms for data synchronization and enhanced functionality.
+
+
+| APPS Features          | **Seatable** | **NocoBase** | **Rei3** | **Directus** |  **NocoDB**  |  **Saltcorn**  |
+| ---                    |     ---      |     ---      |    ---   |      ---     |      ---     |      ---       |
+| Sign up                |              |     Yes      |          |              |              |                |
+| Forms                  |     Yes      |     Yes      |    Yes   |      Yes     |      Yes     |      Yes       |
+| Calendar               |     Yes      |     No       |    Yes   |      No      |      No      |      No        |
+| Roles                  | simple       | complex      | simple   | complex      | complex      | complex        |
+| Electonic signature    |     Yes      |              |    No    |              |              |                |
+| E2EE                   |              |              |    YES   |              |              |                |
+| Print                  |              |              |          |              |              |                |
+| Data Integrity         |   built-in   |              |          |   built-in   |              |                |
 
 ## Technology Description
 
