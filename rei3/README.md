@@ -19,7 +19,9 @@ Import the CCMS files into your REI3 installation.
 Customize the CCMS configuration within REI3 to fit your child care center's specific requirements.
 Set up pages, components, and data structures in REI3 to manage child records, attendance, and other CCMS functionalities.
 Launch the CCMS on REI3 and start managing your child care center efficiently.
-Compatibility
+
+## Compatibility
+
 CCMS on REI3 is compatible with the latest version of the REI3 platform. Please ensure that you have a compatible version installed to avoid any compatibility issues.
 
 ## Contributing

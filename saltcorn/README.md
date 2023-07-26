@@ -13,14 +13,14 @@ Saltcorn provides a flexible and user-friendly platform for building database-dr
 To get started with CCMS using Saltcorn, follow these steps:
 
 Install Saltcorn by referring to the Saltcorn documentation.
-Import the CCMS files into your Saltcorn installation.
-Configure the CCMS within Saltcorn, setting up tables, relationships, and forms to manage child records, attendance, and other CCMS functionalities.
-Customize the user interface and workflows using Saltcorn's visual editor to match your child care center's specific requirements.
-Launch the CCMS on Saltcorn and start managing your child care center efficiently.
+Import the backup-ccms.zip file from Settings/Backup.
+Delete the sample data and users, change Admin email and password.
 
 Defaults:
 - Admin: ccms@example.com Password: 8a55w0rd
 - User:  user@example.com Password: 8a55w0rd
+
+Now, you can start to use CCMS application.
 
 ## Compatibility
 
