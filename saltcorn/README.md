@@ -17,8 +17,10 @@ Import the backup-ccms.zip file from Settings/Backup.
 Delete the sample data and users, change Admin email and password.
 
 Defaults:
-- Admin: ccms@example.com Password: 8a55w0rd
-- User:  user@example.com Password: 8a55w0rd
+- Admin:    ccms@example.com    Password: 8a55w0rd
+- User:     user@example.com    Password: 8a55w0rd
+- User2:    user2@example.com   Passowrd: 8a55w0rd
+- Staff:    staff@example.com   Passowrd: 8a55w0rd
 
 Now, you can start to use CCMS application.
 
