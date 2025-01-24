@@ -8,6 +8,10 @@
 | -------- | ------------ | ------------ | -------- | ------------ | ------------ |
 | Version  |     2        |              |          |              |              |
 
+### News
+
+Added NEWS.md file where I will report some news on the project.
+
 
 # Child Care Management System
 
@@ -29,7 +33,7 @@ Integration: Easily integrate with other systems or platforms for data synchroni
 | ---                    |     ---      |     ---      |    ---   |      ---     |      ---     |      ---       |
 | Sign up                |              |     Yes      |          |              |              |                |
 | Forms                  |     Yes      |     Yes      |    Yes   |      Yes     |      Yes     |      Yes       |
-| Calendar               |     Yes      |     No       |    Yes   |      No      |      No      |      No        |
+| Calendar               |     Yes      |     No       |    Yes   |      No      |      Yes     |      No        |
 | Roles                  | simple       | complex      | simple   | complex      | complex      | complex        |
 | Electonic signature    |     Yes      |              |    No    |              |              |                |
 | E2EE                   |              |              |    YES   |              |              |                |
@@ -101,7 +105,8 @@ Please note that this timeline is subject to change as the project progresses.
 - [x] Implement calendar activities functionality
 - [ ] Implementig ccms in NOCOBASE
 - [x] Implementig ccms in SEATABLE 
-- [ ] Implementig ccms in ....
+- [ ] Implementig ccms in NOCODB
+
 ### Phase 2: Staff Management and Billing
 - [ ] Develop staff management features (roles, schedules, certifications)
 - [ ] Implement billing and payment functionality

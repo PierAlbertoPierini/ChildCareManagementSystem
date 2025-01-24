@@ -1,0 +1,13 @@
+# Added a Mapping Volume for MySQL data 
+# you can find the instructions at
+# https://docs.nocodb.com/getting-started/self-hosted/installation/docker-install/
+
+services:
+    nocodb:
+        container_name: nocodb
+        volumes:
+            - './nocodb:/usr/app/data/'
+        ports:
+            - 8000:8080
+        image: nocodb/nocodb:latest
+        restart: unless-stopped
