@@ -4,9 +4,9 @@
 ![ccms - Child Care Management System - logo](ccms-logo.svg)
 
 ## ccms Version
-|          | **Seatable** | **NocoBase** | **Rei3** | **Directus** | **Saltcorn** |
-| -------- | ------------ | ------------ | -------- | ------------ | ------------ |
-| Version  |     2        |              |          |              |              |
+|          | **Seatable** | **NocoBase** | **Rei3** | **Directus** | **Saltcorn** |  **NocoDB**  | 
+| -------- | ------------ | ------------ | -------- | ------------ | ------------ | ------------ |
+| Version  |     2        |              |          |              |              |              |
 
 ### News
 
