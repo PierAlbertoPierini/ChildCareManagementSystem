@@ -1,6 +1,14 @@
+# Saltcorn Directory
+
 Visit: https://saltcorn.com/
 
-# Saltcorn Directory
+> [!WARNING] Local Use Only
+> 
+> Review and modify the scripts to follow security best practices before using them in any public or production setting.
+> 
+> Users are responsible for implementing appropriate security measures before deploying this application online or in a production environment.
+
+## Saltcorn Directory
 
 This directory contains the necessary files and configurations for deploying the Child Care Management System (CCMS) using Saltcorn, a powerful open-source no-code application builder. With Saltcorn, you can easily create and customize web applications without writing code.
 

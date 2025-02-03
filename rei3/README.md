@@ -1,6 +1,18 @@
+## REI3 Directory
+
 Visit: https://rei3.de/
 
-# REI3 Directory
+> [!WARNING] Local Use Only
+> 
+> This repository contains scripts for installing the application in a Docker container. These scripts are intended for **local development and testing purposes only**. They have not been secured or optimized for production environments.
+> 
+> - Do not use these scripts in a production environment without proper security auditing and hardening.
+> - Ensure all sensitive information, such as passwords and API keys, are removed or properly secured before deploying online.
+> - Review and modify the scripts to follow security best practices before using them in any public or production setting.
+> 
+> Users are responsible for implementing appropriate security measures before deploying this application online or in a production environment.
+
+## REI3 Directory
 
 This directory contains the necessary files and configurations for deploying the Child Care Management System (CCMS) using REI3, an open-source no-code/low-code application development platform. REI3 offers a user-friendly interface for building web applications with ease.
 

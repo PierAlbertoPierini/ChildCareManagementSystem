@@ -1,5 +1,13 @@
 # Seatable Directory
 
+> [!WARNING] Local Use Only
+> 
+> Review and modify the scripts to follow security best practices before using them in any public or production setting.
+> 
+> Users are responsible for implementing appropriate security measures before deploying this application online or in a production environment.
+
+## Seatable Directory
+
 This directory contains the necessary files and configurations for deploying the Child Care Management System (CCMS) using Seatable, an open-source spreadsheet-like database platform. Seatable offers a user-friendly interface for organizing, managing, and collaborating on data.
 
 # Usable Version and Starting Point

@@ -1,11 +1,22 @@
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+# Child Care Management System
 
+> [!WARNING] Local Use Only
+> 
+> This repository contains scripts for installing the application in a Docker container. These scripts are intended for **local development and testing purposes only**. They have not been secured or optimized for production environments.
+> 
+> - Do not use these scripts in a production environment without proper security auditing and hardening.
+> - Ensure all sensitive information, such as passwords and API keys, are removed or properly secured before deploying online.
+> - Review and modify the scripts to follow security best practices before using them in any public or production setting.
+> 
+> Users are responsible for implementing appropriate security measures before deploying this application online or in a production environment.
+
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
 ![ccms - Child Care Management System - logo](ccms-logo.svg)
 
 ## ccms Version
 |          | **Seatable** | **NocoBase** | **Rei3** | **Directus** | **Saltcorn** |  **NocoDB**  | 
-| -------- | ------------ | ------------ | -------- | ------------ | ------------ | ------------ |
+| -------- | :----------: | :----------: | :------: | :----------: | :----------: | :----------: |
 | Version  |     2        |              |          |              |              |              |
 
 ### News
@@ -30,11 +41,11 @@ Integration: Easily integrate with other systems or platforms for data synchroni
 
 
 | APPS Features          | **Seatable** | **NocoBase** | **Rei3** | **Directus** |  **NocoDB**  |  **Saltcorn**  |
-| ---                    |     ---      |     ---      |    ---   |      ---     |      ---     |      ---       |
+| ---                    |     :---:    |     :---:    |   :---:  |    :---:     |    :---:     |    :---:       |
 | Sign up                |              |     Yes      |          |              |              |                |
 | Forms                  |     Yes      |     Yes      |    Yes   |      Yes     |      Yes     |      Yes       |
 | Calendar               |     Yes      |     No       |    Yes   |      No      |      Yes     |      No        |
-| Roles                  | simple       | complex      | simple   | complex      | complex      | complex        |
+| Roles                  | simple       | complex      | simple   | complex      | simple       | complex        |
 | Electonic signature    |     Yes      |              |    No    |              |              |                |
 | E2EE                   |              |              |    YES   |              |              |                |
 | Print                  |              |              |          |              |              |                |
@@ -44,10 +55,12 @@ Integration: Easily integrate with other systems or platforms for data synchroni
 
 The Child Care Management System is built on top of several no-code and low-code applications, providing a powerful and flexible foundation for development. The key technologies and frameworks used in this project include:
 
-NoCodeBase: A robust no-code platform that simplifies the creation and customization of database-driven applications.
-NoCoDB: A low-code platform that enables rapid application development and seamless data management.
-Rei3: A no-code platform that offers a visual interface for building web applications without the need for coding.
-SeaTable: An open-source spreadsheet-like database platform that allows for easy data organization, collaboration, and automation.
+- NoCodeBase: A robust no-code platform that simplifies the creation and customization of database-driven applications.
+- NoCoDB: A low-code platform that enables rapid application development and seamless data management.
+- Rei3: A no-code platform that offers a visual interface for building web applications without the need for coding.
+- NocoDB: A robust and versatile open-source platform that turns any SQL database (MySQL, PostgreSQL, SQLite, etc.) into an interactive spreadsheet-style interface. 
+- SeaTable: An open-source spreadsheet-like database platform that allows for easy data organization, collaboration, and automation.
+
 These technologies were carefully selected to ensure the project's ease of use, scalability, and maintainability, empowering developers of all skill levels to contribute and extend the functionality of the Child Care Management System.
 
 ## Use case note
