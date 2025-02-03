@@ -1,6 +1,10 @@
 ## REI3 Directory
 
 Visit: https://rei3.de/
+Docker file: https://github.com/r3-team/r3_docker/blob/main/README.md
+Docker User/Password: admin/admin
+Docs: https://rei3.de/en/docs/admin#docker
+GitHub: https://github.com/r3-team/r3
 
 > [!WARNING] Local Use Only
 > 
