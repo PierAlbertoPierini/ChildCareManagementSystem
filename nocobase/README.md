@@ -1,6 +1,7 @@
 # NoCodeBase Directory
 
 Visit: https://www.nocobase.com/
+Github: https://github.com/nocobase/nocobase
 
 > [!WARNING] Local Use Only
 > 

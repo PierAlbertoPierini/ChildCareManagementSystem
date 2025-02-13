@@ -1,3 +1,4 @@
+name: saltcorn
 services:
   saltcorn-app:
     image: saltcorn/saltcorn

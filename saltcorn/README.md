@@ -3,6 +3,7 @@
 Visit: https://saltcorn.com/
 GitHub: https://github.com/saltcorn/saltcorn
 Docs: https://wiki.saltcorn.com
+Docker Hub: https://hub.docker.com/r/saltcorn/saltcorn
 
 > [!WARNING] Local Use Only
 > 
