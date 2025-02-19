@@ -31,24 +31,63 @@ To set up CCMS using NoCoDB, follow these steps:
 
 ## Install NoCoDB:
 Deploy NoCoDB using Docker, npm, or other installation methods (detailed in the official documentation).
-Connect Your Database:
 
-Link NoCoDB to your preferred SQL database (MySQL, PostgreSQL, SQLite, etc.).
-Import the CCMS Schema:
+**Connect Your Database:** Link NoCoDB to your preferred SQL database (MySQL, PostgreSQL, SQLite, etc.).
 
-Use the provided schema files to set up tables for managing child records, attendance, billing, and other child care center functionalities.
-Customize Your Application:
+**Import the CCMS Schema:** Use the provided schema files:
 
-Configure relationships between tables, define user permissions, and design forms for data entry.
+- Activities.csv
+- Inscription.csv
+
+set up tables for managing child records functionalities.
+
+```mermaid
+erDiagram
+    Activities {
+        int id PK
+        text Title
+        attachment Image
+        date Date_Event
+        text Note
+    }
+    Inscription {
+        int id PK
+        text Child_Last_Name
+        text Child_First_Name       
+        date Child_Birthday
+        singleselect Child_Gender
+        singleselect Service_Year
+        text Child_Address
+        text Child_lives_with
+        text Parent_Name
+        phoneAddress Parent_Work_Phone
+        phoneAddress Parent_Home_Phone
+        text Parent_Name
+        phoneAddress Parent_Work_Phone
+        phoneAddress Parents_Home_Phone
+        text Emergency_contact
+        phoneAddress Emergency_contact_Phone
+        text Child_Doctor
+        text Child_Doctor_Phone
+        text Allergies
+        text Medications
+        text Care_Card_number
+        attachment Picture_of_Child
+        text Signature_of_Parent_Guardian
+        text Witness
+        datetime Signature_Date
+    }
+```
+
+
+**Customize Your Application:** Configure relationships between tables, define user permissions, and design forms for data entry.
 Use NoCoDB's spreadsheet-like interface and form builder to adapt CCMS to your specific needs.
-Automate Workflows:
 
-Set up workflows to automate repetitive tasks like attendance tracking or generating invoices.
-Launch and Manage:
+**Automate Workflows:** Set up workflows to automate repetitive tasks like attendance tracking or generating invoices.
 
-Once configured, your CCMS is ready to manage your child care center efficiently with NoCoDB.
-Compatibility
-CCMS is compatible with the latest stable versions of NoCoDB and supports various SQL databases. Make sure your environment meets the system requirements for optimal performance.
+**Launch and Manage:** Once configured, your CCMS is ready to manage your child care center efficiently with NoCoDB.
+
+**Compatibility:** CCMS is compatible with the latest stable versions of NoCoDB and supports various SQL databases. Make sure your environment meets the system requirements for optimal performance.
 
 ## Contributing
 Contributions to the CCMS for NoCoDB are welcome! If you encounter bugs, have feature suggestions, or want to contribute improvements, please use the issue tracker or submit a pull request on the repository.
