@@ -2,6 +2,7 @@
 
 Visit: https://www.nocobase.com/
 Github: https://github.com/nocobase/nocobase
+Docker installation: https://docs.nocobase.com/welcome/getting-started/installation/docker-compose
 
 > [!WARNING] Local Use Only
 > 

@@ -1,28 +1,50 @@
-# Added a Mapping Volume for MySQL data 
 # you can find the original yml file at
-# https://github.com/nocobase/nocobase/tree/main/docker/app-mysql
+# https://docs.nocobase.com/welcome/getting-started/installation/docker-compose
+
+version: '3'
 
 networks:
   nocobase:
     driver: bridge
+
 services:
   app:
-    image: nocobase/nocobase:main
+    image: nocobase/nocobase:latest
+    restart: always
     networks:
       - nocobase
     depends_on:
       - mysql
     environment:
+      # The application's secret key, used to generate user tokens, etc.
+      # If APP_KEY is changed, old tokens will also become invalid.
+      # It can be any random string, and make sure it is not exposed.
+      - APP_KEY=your-secret-key
+      # Database type, supports postgres, mysql, mariadb
       - DB_DIALECT=mysql
+      # Database host, can be replaced with the IP of an existing database server
       - DB_HOST=mysql
+      # Database name
       - DB_DATABASE=nocobase
-      - DB_USER=nocobase
+      # Database user
+      - DB_USER=root
+      # Database password
       - DB_PASSWORD=nocobase
-      - LOCAL_STORAGE_BASE_URL=/storage/uploads
+      # Whether to convert table and field names to snake case
+      - DB_UNDERSCORED=true
+      # Timezone
+      - TZ=UTC
+      # Service platform username and password,
+      # used for automatically downloading and updating plugins.
+      - NOCOBASE_PKG_USERNAME=
+      - NOCOBASE_PKG_PASSWORD=
     volumes:
       - ./storage:/app/nocobase/storage
     ports:
-      - "13000:80"
+      - '13000:80'
+    # init: true
+
+  # If using an existing database server, mysql service can be omitted
   mysql:
     image: mysql:8
     environment:
@@ -31,7 +53,7 @@ services:
       MYSQL_PASSWORD: nocobase
       MYSQL_ROOT_PASSWORD: nocobase
     restart: always
+    volumes:
+      - ./storage/db/mysql:/var/lib/mysql
     networks:
       - nocobase
-    volumes:
-      - ./mysql_data:/var/lib/mysql # Mapping a volume for MySQL data
