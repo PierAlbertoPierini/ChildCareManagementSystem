@@ -6,3 +6,6 @@
 
 # Ignore all bkp files
 *.bkp
+
+# Ignore Directories
+./varia
