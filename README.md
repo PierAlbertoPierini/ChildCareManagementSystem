@@ -101,10 +101,6 @@ If you find the Child Care Management System valuable and would like to support 
 We believe in the power of collaboration and community input. If you have any innovative ideas, suggestions, or feature requests, we would love to hear them! Please create an issue in the GitHub repository with a detailed description of your idea. We appreciate your input and will review it as soon as possible.
 </details>
 
-## Customization and Installation Services
-
-If you require customization of the Child Care Management System to suit your specific needs or need assistance with installation and configuration, we provide paid services to help you. Please reach out to us at `pier_alberto@pierini.com` for further details and pricing information. I'm dedicated to providing tailored solutions and ensuring a smooth experience for your child care center.
-
 ## License
 The Child Care Management System is released under the MIT License.
 
@@ -148,5 +144,11 @@ Please note that this timeline is subject to change as the project progresses.
 
 </details>
 
-- Support us on [Ko-fi] <a href='https://ko-fi.com/pieralberto' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
-- Buy us a coffee on [Buy Me a Coffee] <a href="https://www.buymeacoffee.com/pieralberto" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+Support us on [Ko-fi] <a href='https://ko-fi.com/pieralberto' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+
+
+Buy me a coffee on [Buy Me a Coffee] <a href="https://www.buymeacoffee.com/pieralberto" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+## Customization and Installation Services
+
+If you require customization of the Child Care Management System to suit your specific needs or need assistance with installation and configuration, we provide paid services to help you. Please reach out to us at `pier_alberto@pierini.com` for further details and pricing information. I'm dedicated to providing tailored solutions and ensuring a smooth experience for your child care center.
