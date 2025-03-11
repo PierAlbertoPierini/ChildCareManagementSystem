@@ -1,6 +1,6 @@
 # NoCoDB Directory
 
-Visit: https://www.nocodb.com/
+Website: https://www.nocodb.com/
 Github: https://github.com/nocodb/nocodb
 Docker Hub: https://hub.docker.com/r/nocodb/nocodb
 

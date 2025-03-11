@@ -12,7 +12,7 @@ This directory contains the necessary files and configurations for deploying the
 
 # Usable Version and Starting Point
 
-The files in this directory represent the first release of CCMS on Seatable and can serve as a starting point for your deployment. This release provides a foundation for the system, allowing you to begin managing your child care center's operations. However, please note that this is an initial version, and we have plans to implement additional features and enhancements in future releases. We encourage you to stay tuned for updates and contribute to the project's development.
+The files in this directory can serve as a starting point for your deployment. This release provides a foundation for the system, allowing you to begin managing your child care center's operations. However, please note that this is an initial version, and we have plans to implement additional features and enhancements in future releases. We encourage you to stay tuned for updates and contribute to the project's development.
 
 ## About Seatable
 

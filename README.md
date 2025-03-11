@@ -15,9 +15,9 @@
 ![ccms - Child Care Management System - logo](ccms-logo.svg)
 
 ## ccms Version
-|          | **Seatable** | **Reis3** | **Directus** | **NocoDB** |  **NocoBase**  |  **Saltcorn**  |  **Teable**  |  **UnDB**  |
-| -------- |    :---:     |   :---:   |     :---:    |    :---:   |      :---:     |      :---:     |     :---:    |    :---:   |
-| Version  |     0.2      |           |              |     0.1    |                |                |              |            |
+|          | **Seatable** | **Reis3** | **Directus** | **NocoDB** |  **NocoBase**  |  **Saltcorn**  |  **Teable**  |  **UnDB**  | **Grist** |
+| -------- |    :---:     |   :---:   |     :---:    |    :---:   |      :---:     |      :---:     |     :---:    |    :---:   |   :---:   |
+| Version  |     0.2      |           |              |     0.1    |                |                |              |            |    0.1    |
 
 ### News
 
@@ -40,31 +40,23 @@ Reporting and Analytics: Generate insightful reports and analytics to gain valua
 Integration: Easily integrate with other systems or platforms for data synchronization and enhanced functionality.
 
 
-| APPS Features          | **Seatable** | **Reis3** | **Directus** | **NocoDB** |  **NocoBase**  |  **Saltcorn**  |  **Teable**  |  **UnDB**  |
-| ---                    |     :---:    |    :---:  |    :---:     |    :---:   |      :---:     |      :---:     |    :---:     |    :---:   |
-| Sign up                |              |           |              |            |       Yes      |       Yes      |              |            |
-| Forms                  |     Yes      |    Yes    |     Yes      |    Yes     |       Yes      |       Yes      |              |            |
-| Calendar               |     Yes      |    Yes    |     Yes      |    Yes     |       Yes      |       Yes      |              |            |
-| Roles                  |    simple    |  complex  |    complex   |   simple   |     complex    |     complex    |    simple    |   simple   | 
-| Electonic signature    |     Yes      |           |              |            |                |                |              |            |
-| E2EE                   |              |           |              |            |                |                |              |            |
-| Print                  |              |           |              |            |                |                |              |            |
-| Export/import Templates|     Yes      |    Yes    |              |            |                |       Yes      |              |            |
-|                        |              |           |              |            |                |                |              |            |
-|                        |              |           |              |            |                |                |              |            |
-| Data Integrity         |   built-in   |           |   built-in   |            |                |                |              |            |
+| APPS Features          | **Seatable** | **Reis3** | **Directus** | **NocoDB** | **NocoBase** | **Saltcorn** | **Teable** | **UnDB** | **Grist** |
+| ---                    |     :---:    |    :---:  |    :---:     |    :---:   |     :---:    |     :---:    |   :---:    |   :---:  |   :---:   |
+| Sign up                |              |           |              |            |      Yes     |      Yes     |            |          |           |
+| Forms                  |     Yes      |    Yes    |     Yes      |    Yes     |      Yes     |      Yes     |            |          |    Yes    |
+| Calendar               |     Yes      |    Yes    |     Yes      |    Yes     |      Yes     |      Yes     |            |          |    Yes    |
+| Roles                  |    simple    |  complex  |    complex   |   simple   |    complex   |    complex   |   simple   |  simple  |           | 
+| Electonic signature    |     Yes      |           |              |            |              |              |            |          |           |
+| E2EE                   |              |           |              |            |              |              |            |          |           |
+| Print                  |              |           |              |            |              |              |            |          |           |
+| Export/import Templates|     Yes      |    Yes    |              |            |              |      Yes     |            |          |    Yes    |
+|                        |              |           |              |            |              |              |            |          |           |
+|                        |              |           |              |            |              |              |            |          |           |
+| Data Integrity         |   built-in   |           |   built-in   |            |              |              |            |          |           |
 
 <details>
 <summary>Technology Description</summary>
-The Child Care Management System is built on top of several no-code and low-code applications, providing a powerful and flexible foundation for development. The key technologies and frameworks used in this project include:
-
-- NoCodeBase: A robust no-code platform that simplifies the creation and customization of database-driven applications.
-- NoCoDB: A low-code platform that enables rapid application development and seamless data management.
-- Rei3: A no-code platform that offers a visual interface for building web applications without the need for coding.
-- NocoDB: A robust and versatile open-source platform that turns any SQL database (MySQL, PostgreSQL, SQLite, etc.) into an interactive spreadsheet-style interface. 
-- SeaTable: An open-source spreadsheet-like database platform that allows for easy data organization, collaboration, and automation.
-
-These technologies were carefully selected to ensure the project's ease of use, scalability, and maintainability, empowering developers of all skill levels to contribute and extend the functionality of the Child Care Management System.
+The Child Care Management System is built on top of several no-code and low-code applications, providing a powerful and flexible foundation for development. These technologies were carefully selected to ensure the project's ease of use, scalability, and maintainability, empowering people of all skill levels to contribute and extend the functionality of the Child Care Management System.
 </details>
 
 <details>
@@ -116,6 +108,7 @@ Please note that this timeline is subject to change as the project progresses.
 - [x] Basic database design for children registration
 - [x] Implement calendar activities functionality
 - [x] Implementig ccms in SEATABLE
+- [ ] Implementig ccms in Grist
 - [ ] Implementig ccms in Rei3
 
 ### Staff Management and Billing
