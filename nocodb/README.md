@@ -94,3 +94,40 @@ Contributions to the CCMS for NoCoDB are welcome! If you encounter bugs, have fe
 
 ## License
 The Child Care Management System (CCMS) for NoCoDB is released under the MIT License.
+
+<details>
+<summary>Timeline</summary>
+
+Please note that this timeline is subject to change as the project progresses. 
+
+### Database Design and Calendar Activities
+- [x] Basic database design for children registration
+- [x] Implement calendar activities functionality
+
+### Staff Management and Billing
+- [ ] Develop staff management features (roles, schedules, certifications)
+    - [ ] Reports
+    - [ ] Employee time report
+- [ ] Implement billing and payment functionality
+
+### Enrollment and Waitlist
+- [ ] Streamline the enrollment process
+- [ ] Manage waitlists and availability
+
+### Attendance Tracking and Reporting
+- [ ] Track attendance for children and staff
+- [ ] Generate reports and analytics
+
+### Communication and Notifications
+- [ ] Enable seamless communication between parents, staff, and administrators
+- [ ] Implement notification system and announcements
+
+### Integration and Customization
+- [ ] Integrate with other systems or platforms for data synchronization
+- [ ] Allow customization options for tailored implementations
+
+### Documentation and Testing
+- [ ] Create comprehensive documentation for installation and usage
+- [ ] Perform thorough testing and bug fixing
+
+</details>

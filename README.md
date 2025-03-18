@@ -17,7 +17,7 @@
 ## ccms Version
 |          | **Seatable** | **Reis3** | **Directus** | **NocoDB** |  **NocoBase**  |  **Saltcorn**  |  **Teable**  |  **UnDB**  | **Grist** |
 | -------- |    :---:     |   :---:   |     :---:    |    :---:   |      :---:     |      :---:     |     :---:    |    :---:   |   :---:   |
-| Version  |     0.2      |           |              |     0.1    |                |                |              |            |    0.1    |
+| Version  |     0.3      |           |              |     0.1    |                |                |              |            |    0.2    |
 
 ### News
 
@@ -98,44 +98,6 @@ The Child Care Management System is released under the MIT License.
 
 ## Acknowledgments
 We would like to express our gratitude to the developers and contributors of SeaTable, Rei3, NocoDB, NocoBase, and other open-source projects that have made this system possible.
-
-<details>
-<summary>Project Timeline</summary>
-
-Please note that this timeline is subject to change as the project progresses. 
-
-### Database Design and Calendar Activities
-- [x] Basic database design for children registration
-- [x] Implement calendar activities functionality
-- [x] Implementig ccms in SEATABLE
-- [ ] Implementig ccms in Grist
-- [ ] Implementig ccms in Rei3
-
-### Staff Management and Billing
-- [ ] Develop staff management features (roles, schedules, certifications)
-- [ ] Implement billing and payment functionality
-
-### Enrollment and Waitlist
-- [ ] Streamline the enrollment process
-- [ ] Manage waitlists and availability
-
-### Attendance Tracking and Reporting
-- [ ] Track attendance for children and staff
-- [ ] Generate reports and analytics
-
-### Communication and Notifications
-- [ ] Enable seamless communication between parents, staff, and administrators
-- [ ] Implement notification system and announcements
-
-### Integration and Customization
-- [ ] Integrate with other systems or platforms for data synchronization
-- [ ] Allow customization options for tailored implementations
-
-### Documentation and Testing
-- [ ] Create comprehensive documentation for installation and usage
-- [ ] Perform thorough testing and bug fixing
-
-</details>
 
 Support us on [Ko-fi] <a href='https://ko-fi.com/pieralberto' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
 
