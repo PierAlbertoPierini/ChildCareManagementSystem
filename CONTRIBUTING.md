@@ -1,38 +1,49 @@
 # Contribution Guidelines
-We welcome and appreciate contributions to the Child Care Management System. To ensure a smooth collaboration process, please follow these guidelines when making contributions:
 
-## Code Contributions
-Fork the repository and create your branch: git checkout -b my-feature-branch
-Commit your changes: git commit -am 'Add a new feature'
-Push to the branch: git push origin my-feature-branch
-Submit a pull request with a detailed description of your changes.
-Please ensure that your code adheres to the following guidelines:
+We welcome and appreciate contributions to the Child Care Management System. Since this is a no-code application and not a traditional software project, contributions cannot be submitted via pull requests.
 
-Follow consistent coding style and naming conventions.
-Write clear and concise commit messages.
-Include necessary documentation and tests with your code.
-Ensure your changes do not introduce breaking changes unless necessary and documented.
+## How to Contribute
 
-## Issue Reporting
-If you encounter any bugs, issues, or have feature requests, please report them through the GitHub issue tracker. When reporting an issue, please provide:
+If you have suggestions, improvements, or enhancements to propose, please send them via email to:
 
-A clear and descriptive title.
-Steps to reproduce the issue, if applicable.
-Expected and actual behavior.
-Any relevant error messages or stack traces.
+*pier_alberto@pierini.com*
+
+In your email, kindly include:
+
+A clear description of your proposed changes or ideas
+
+Screenshots or exported components if applicable
+
+Any relevant documentation or explanations
+
+## Types of Contributions
+
+We welcome a variety of contributions, such as:
+
+Workflow improvements
+
+UI/UX suggestions or mockups
+
+Database schema enhancements
+
+Bug reports or usability feedback
+
+Ideas for new features
 
 ## Communication
-We encourage respectful and constructive communication within the project community. When participating in discussions, please:
 
-Be respectful and considerate of others' opinions.
-Stay on topic and keep discussions relevant to the project.
-Refrain from personal attacks or offensive language.
-Be open to collaboration and different perspectives.
+To keep things collaborative and constructive:
+
+Be respectful and open to different perspectives
+
+Keep communication focused on the project
+
+Offer clear and actionable suggestions
 
 ## Licensing
-By contributing to the Child Care Management System, you agree that your contributions will be licensed under the project's MIT License.
+
+By sending contributions via email, you agree that your input can be included in the project and will be licensed under the project’s MIT License.
 
 ## Code of Conduct
-We expect all contributors to adhere to the project's Code of Conduct. Please familiarize yourself with its guidelines and ensure a positive and inclusive environment for everyone involved.
 
-
+We expect all contributors to respect our Code of Conduct and help foster a welcoming and inclusive environment for everyone involved.
