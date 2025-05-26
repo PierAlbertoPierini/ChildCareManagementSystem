@@ -1,5 +1,8 @@
 # Child Care Management System
 
+⭐ If you like this project, please consider giving it a star!
+It lets me know you're interested and motivates me to keep improving it in my free time.
+
 > [!WARNING] Local Use Only
 > 
 > This repository contains scripts for installing the application in a Docker container. These scripts are intended for **local development and testing purposes only**. They have not been secured or optimized for production environments.
@@ -10,14 +13,161 @@
 > 
 > Users are responsible for implementing appropriate security measures before deploying this application online or in a production environment.
 
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
-
 ![ccms - Child Care Management System - logo](ccms-logo.svg)
 
-## ccms Version
-|          | **Seatable** | **Reis3** | **Directus** | **NocoDB** |  **NocoBase**  |  **Saltcorn**  |  **Teable**  |  **UnDB**  | **Grist** |
-| -------- |    :---:     |   :---:   |     :---:    |    :---:   |      :---:     |      :---:     |     :---:    |    :---:   |   :---:   |
-| Version  |     0.3      |           |              |     0.1    |                |                |              |            |    0.2    |
+## Usable Version and Starting Point
+The files in this repository can serve as a starting point for your deployment. Each release provides a foundation for the system, allowing you to begin managing your child care center's operations. However, please note that this is an initial version, and we have plans to implement additional features and enhancements in future releases. We encourage you to stay tuned for updates and contribute to the project's development.
+
+## No-code Techs
+
+<details>
+<summary>Seatable - Version 0.3</summary>
+
+</details>
+
+<details>
+<summary>NocoDB - Version 0.1</summary>
+
+Website: https://www.nocodb.com/
+Github: https://github.com/nocodb/nocodb
+Docker Hub: https://hub.docker.com/r/nocodb/nocodb
+
+## About NoCoDB
+NoCoDB is a robust and versatile open-source platform that turns any SQL database (MySQL, PostgreSQL, SQLite, etc.) into an interactive spreadsheet-style interface. It enables users to create, customize, and share applications without writing any code, making it perfect for managing complex datasets and workflows.
+
+## Getting Started
+To set up CCMS using NoCoDB, follow these steps:
+
+## Install NoCoDB:
+Deploy NoCoDB using Docker, npm, or other installation methods (detailed in the official documentation).
+
+**Connect Your Database:** Link NoCoDB to your preferred SQL database (MySQL, PostgreSQL, SQLite, etc.).
+
+**Import the CCMS Schema:** Use the provided schema files:
+
+- Activities.csv
+- Inscription.csv
+
+set up tables for managing child records functionalities.
+
+```mermaid
+erDiagram
+    Activities {
+        int id PK
+        text Title
+        attachment Image
+        date Date_Event
+        text Note
+    }
+    Inscription {
+        int id PK
+        text Child_Last_Name
+        text Child_First_Name       
+        date Child_Birthday
+        singleselect Child_Gender
+        singleselect Service_Year
+        text Child_Address
+        text Child_lives_with
+        text Parent_Name
+        phoneAddress Parent_Work_Phone
+        phoneAddress Parent_Home_Phone
+        text Parent_Name
+        phoneAddress Parent_Work_Phone
+        phoneAddress Parents_Home_Phone
+        text Emergency_contact
+        phoneAddress Emergency_contact_Phone
+        text Child_Doctor
+        text Child_Doctor_Phone
+        text Allergies
+        text Medications
+        text Care_Card_number
+        attachment Picture_of_Child
+        text Signature_of_Parent_Guardian
+        text Witness
+        datetime Signature_Date
+    }
+```
+
+
+**Customize Your Application:** Configure relationships between tables, define user permissions, and design forms for data entry.
+Use NoCoDB's spreadsheet-like interface and form builder to adapt CCMS to your specific needs.
+</details>
+
+<details>
+<summary>Grist - Version 0.2</summary>
+
+Website: https://www.getgrist.com
+Github: https://github.com/gristlabs/grist-desktop
+
+## About Grist
+Grist provides a flexible and customizable platform for data management, making it an ideal choice for deploying CCMS. By leveraging Grist's powerful features, child care centers can streamline their operations, including data entry, record management, and reporting.
+
+Link: https://www.getgrist.com/
+
+## Getting Started
+To get started with CCMS using Grist, follow these steps:
+
+- Install Grist by referring to its documentation.
+- Import the CCMS files (ccms.grist) into your Grist installation.
+- Customize the CCMS configuration within Grist to fit your child care center's specific requirements.
+
+Launch the CCMS on Grist and start managing your child care center efficiently.
+</details>
+
+<details>
+<summary>Reis3</summary>
+
+</details>
+
+<details>
+<summary>Directus</summary>
+
+</details>
+
+<details>
+<summary>NocoBase</summary>
+
+</details>
+
+<details>
+<summary>Saltcorn - Version 0.1</summary>
+
+Visit: https://saltcorn.com/
+GitHub: https://github.com/saltcorn/saltcorn
+Docs: https://wiki.saltcorn.com
+Docker Hub: https://hub.docker.com/r/saltcorn/saltcorn
+
+## About Saltcorn
+
+Saltcorn provides a flexible and user-friendly platform for building database-driven web applications. It offers a range of features, including form builders, workflow automation, and role-based access control, allowing you to create robust and secure applications.
+
+## Getting Started
+
+To get started with CCMS using Saltcorn, follow these steps:
+
+Install Saltcorn by referring to the Saltcorn documentation.
+Import the backup-ccms.zip file from Settings/Backup.
+Delete the sample data and users, change Admin email and password.
+
+Defaults:
+- Admin:    ccms@example.com    Password: 8a55w0rd
+- User:     user@example.com    Password: 8a55w0rd
+- User2:    user2@example.com   Passowrd: 8a55w0rd
+- Staff:    staff@example.com   Passowrd: 8a55w0rd
+
+Now, you can start to use CCMS application.
+
+</details>
+
+<details>
+<summary>Teable</summary>
+
+</details>
+
+<details>
+<summary>UnDB</summary>
+
+</details>
 
 ### News
 
@@ -66,12 +216,10 @@ Please note that the use case and available features of the Child Care Managemen
 
 <details>
 <summary>Installation and Usage</summary>
-Clone the repository: git clone https://github.com/PierAlbertoPierini/ChildCareManagementSystem.git
-Navigate to the project directory: cd child-care-management-system
-Follow the installation instructions for each of the underlying technologies in their respective documentation.
-Customize the system to fit your child care center's specific requirements by configuring the database schemas, workflows, and UI components.
-Run the application and start managing your child care center efficiently.
+Within each section of "No-code Techs," follow the installation instructions for the underlying technologies.
+Customize the system to meet your child care center’s specific needs by configuring the database schemas, workflows, and UI components and begin managing your child care center efficiently.
 </details>
+
 <details>
 <summary>Contributing</summary>
 
@@ -84,9 +232,6 @@ Since these no-code systems are not designed with coding contributions in mind, 
 ## Financial Support
 
 If you find the Child Care Management System valuable and would like to support its development, you can contribute by donating through platforms like Ko-fi or Buy Me a Coffee. Your generous contributions will help me cover hosting expenses, implement new features, and improve the project's overall quality.
-
-- Support us on [Ko-fi] <a href='https://ko-fi.com/pieralberto' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
-- Buy us a coffee on [Buy Me a Coffee] <a href="https://www.buymeacoffee.com/pieralberto" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 ## Share Your Ideas
 
