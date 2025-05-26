@@ -1,7 +1,11 @@
 # Child Care Management System
 
-⭐ If you like this project, please consider giving it a star!
-It lets me know you're interested and motivates me to keep improving it in my free time.
+The Child Care Management System or short "CCMS" is an open-source project aimed at providing a comprehensive and efficient solution for managing child care centers, daycares, and similar childcare facilities. This system is built on top of no-code or low-code applications, leveraging their simplicity and flexibility to enable easy customization and seamless integration.
+
+⭐
+If you like this project, please consider giving it a star!
+It lets me know you're interested and motivates me to keep improving it in my free time.　
+⭐
 
 > [!WARNING] Local Use Only
 > 
@@ -169,14 +173,13 @@ Now, you can start to use CCMS application.
 
 </details>
 
-### News
+## News
 
-Added NEWS.md file where I will report some news on the project.
-
-
-# Child Care Management System
-
-The Child Care Management System or short "CCMS" is an open-source project aimed at providing a comprehensive and efficient solution for managing child care centers, daycares, and similar childcare facilities. This system is built on top of no-code or low-code applications, leveraging their simplicity and flexibility to enable easy customization and seamless integration.
+<details>
+<summary>20250116</summary>
+After an intense period of relocation to Japan, I'm reigniting my passion and commitment to Child Care Management System. This journey isn't just about resuming work, it's about transforming challenges into opportunities, adapting to new environments, and proving that momentum can be rebuilt with strategic focus and determination. With renewed energy and insights gained from navigating international transitions, I'm ready to drive this project forward, bringing fresh perspectives and unwavering dedication to achieving this fantastic goal.### 20250116
+After an intense period of relocation to Japan, I'm reigniting my passion and commitment to Child Care Management System. This journey isn't just about resuming work, it's about transforming challenges into opportunities, adapting to new environments, and proving that momentum can be rebuilt with strategic focus and determination. With renewed energy and insights gained from navigating international transitions, I'm ready to drive this project forward, bringing fresh perspectives and unwavering dedication to achieving this fantastic goal.
+</details>
 
 ## Features
 
