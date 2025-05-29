@@ -26,6 +26,19 @@ The files in this repository can serve as a starting point for your deployment. 
 
 <details>
 <summary>Seatable - Version 0.3</summary>
+Website: https://seatable.io/
+
+## About Seatable
+
+Seatable provides a flexible and customizable platform for data management, making it an ideal choice for deploying CCMS. By leveraging Seatable's powerful features, child care centers can streamline their operations, including data entry, record management, and reporting.
+
+## Getting Started
+
+To get started with CCMS using Seatable, follow these steps:
+Import the CCMS files (ccms.dtable) into your Seatable.
+Customize the CCMS configuration within Seatable to fit your child care center's specific requirements.
+Set up forms and views in Seatable to manage child records, attendance, and other CCMS functionalities.
+Launch the CCMS on Seatable and start managing your child care center efficiently.
 
 </details>
 
@@ -121,6 +134,22 @@ Launch the CCMS on Grist and start managing your child care center efficiently.
 <details>
 <summary>Reis3</summary>
 
+Visit: https://rei3.de/
+Docker file: https://github.com/r3-team/r3_docker/blob/main/README.md
+Docker User/Password: admin/admin
+Docs: https://rei3.de/en/docs/admin#docker
+GitHub: https://github.com/r3-team/r3
+
+## Getting Started
+
+To get started with CCMS using REI3, follow these steps:
+
+Install REI3 by referring to the REI3 documentation.
+Import the CCMS files into your REI3 installation.
+Customize the CCMS configuration within REI3 to fit your child care center's specific requirements.
+Set up pages, components, and data structures in REI3 to manage child records, attendance, and other CCMS functionalities.
+Launch the CCMS on REI3 and start managing your child care center efficiently.
+
 </details>
 
 <details>
@@ -130,6 +159,10 @@ Launch the CCMS on Grist and start managing your child care center efficiently.
 
 <details>
 <summary>NocoBase</summary>
+
+Visit: https://www.nocobase.com/
+Github: https://github.com/nocobase/nocobase
+Docker installation: https://docs.nocobase.com/welcome/getting-started/installation/docker-compose
 
 </details>
 
