@@ -1,0 +1,14 @@
+| Column Title             | Type                         | Description                                                                              |
+| ------------------------ | ---------------------------- | ---------------------------------------------------------------------------------------- |
+| `Submission Date`        | Date                         | Auto-filled with the form submission date (optional default: today).                     |
+| `Employee Name`          | Link to another table        | Name of the employee submitting. Use a link if you manage employees in a separate table. |
+| `Expense Category`       | Single Select                | e.g., Travel, Meals, Equipment, Office Supplies, etc.                                    |
+| `Expense Description`    | Long Text                    | Details of what the expense was.                                                         |
+| `Expense Date`           | Date                         | When the expense was made.                                                               |
+| `Amount`                 | Currency                     | The total amount paid by the employee.                                                   |
+| `Currency`               | Single Select                | If relevant for international expenses (e.g., JPY, USD, EUR).                            |
+| `Receipt`                | File                         | Upload scanned/photo receipt.                                                            |
+| `Payment Method Used`    | Single Select                | e.g., Credit Card, Cash, Mobile Payment.                                                 |
+| `Reimbursement Status`   | Single Select                | Draft / Submitted / Approved / Reimbursed / Rejected                                     |
+| `Date Reimbursed`        | Date                         | Filled when the reimbursement is processed.                                              |
+| `Notes / Admin Comments` | Long Text                    | For internal use (e.g., “Missing receipt”, “Approved on phone call”).                    |

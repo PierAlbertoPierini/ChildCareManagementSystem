@@ -25,7 +25,7 @@ The files in this repository can serve as a starting point for your deployment. 
 ## No-code Techs
 
 <details>
-<summary>Seatable - Version 0.3</summary>
+<summary>Seatable - Version 0.4</summary>
 Website: https://seatable.io/
 
 ## About Seatable
@@ -38,7 +38,18 @@ To get started with CCMS using Seatable, follow these steps:
 Import the CCMS files (ccms.dtable) into your Seatable.
 Customize the CCMS configuration within Seatable to fit your child care center's specific requirements.
 Set up forms and views in Seatable to manage child records, attendance, and other CCMS functionalities.
-Launch the CCMS on Seatable and start managing your child care center efficiently.
+Start managing your child care center efficiently.
+
+| APPS Features          | **Available** | **Form** |
+| ---                    |    :---:      |          |
+| Inscription            |     Yes       |   Yes    |
+| Authority Inscription  |     Yes       |   Yes    |
+| Activity               |     Yes       |          |
+| Reports                |     Yes       |   Yes    |
+| Staff Presences        |     Yes       |          |
+| Child Presences        |     Yes       |          |
+| Employee Reimbursements|     Yes       |   Yes    |
+| Employee               |     Yes       |          |
 
 </details>
 
@@ -108,6 +119,18 @@ erDiagram
 
 **Customize Your Application:** Configure relationships between tables, define user permissions, and design forms for data entry.
 Use NoCoDB's spreadsheet-like interface and form builder to adapt CCMS to your specific needs.
+
+| APPS Features          | **Available** | **Form** |
+| ---                    |    :---:      |          |
+| Inscription            |               |          |
+| Authority Inscription  |               |          |
+| Activity               |               |          |
+| Reports                |               |          |
+| Staff Presences        |               |          |
+| Child Presences        |               |          |
+| Employee Reimbursements|               |          |
+| Employee               |               |          |
+
 </details>
 
 <details>
@@ -129,6 +152,18 @@ To get started with CCMS using Grist, follow these steps:
 - Customize the CCMS configuration within Grist to fit your child care center's specific requirements.
 
 Launch the CCMS on Grist and start managing your child care center efficiently.
+
+| APPS Features          | **Available** | **Form** |
+| ---                    |    :---:      |          |
+| Inscription            |               |          |
+| Authority Inscription  |               |          |
+| Activity               |               |          |
+| Reports                |               |          |
+| Staff Presences        |               |          |
+| Child Presences        |               |          |
+| Employee Reimbursements|               |          |
+| Employee               |               |          |
+
 </details>
 
 <details>
@@ -149,6 +184,17 @@ Import the CCMS files into your REI3 installation.
 Customize the CCMS configuration within REI3 to fit your child care center's specific requirements.
 Set up pages, components, and data structures in REI3 to manage child records, attendance, and other CCMS functionalities.
 Launch the CCMS on REI3 and start managing your child care center efficiently.
+
+| APPS Features          | **Available** | **Form** |
+| ---                    |    :---:      |          |
+| Inscription            |               |          |
+| Authority Inscription  |               |          |
+| Activity               |               |          |
+| Reports                |               |          |
+| Staff Presences        |               |          |
+| Child Presences        |               |          |
+| Employee Reimbursements|               |          |
+| Employee               |               |          |
 
 </details>
 
@@ -194,15 +240,48 @@ Defaults:
 
 Now, you can start to use CCMS application.
 
+| APPS Features          | **Available** | **Form** |
+| ---                    |    :---:      |          |
+| Inscription            |               |          |
+| Authority Inscription  |               |          |
+| Activity               |               |          |
+| Reports                |               |          |
+| Staff Presences        |               |          |
+| Child Presences        |               |          |
+| Employee Reimbursements|               |          |
+| Employee               |               |          |
+
 </details>
 
 <details>
 <summary>Teable</summary>
 
+| APPS Features          | **Available** | **Form** |
+| ---                    |    :---:      |          |
+| Inscription            |               |          |
+| Authority Inscription  |               |          |
+| Activity               |               |          |
+| Reports                |               |          |
+| Staff Presences        |               |          |
+| Child Presences        |               |          |
+| Employee Reimbursements|               |          |
+| Employee               |               |          |
+
 </details>
 
 <details>
 <summary>UnDB</summary>
+
+| APPS Features          | **Available** | **Form** |
+| ---                    |    :---:      |          |
+| Inscription            |               |          |
+| Authority Inscription  |               |          |
+| Activity               |               |          |
+| Reports                |               |          |
+| Staff Presences        |               |          |
+| Child Presences        |               |          |
+| Employee Reimbursements|               |          |
+| Employee               |               |          |
 
 </details>
 
@@ -212,6 +291,7 @@ Now, you can start to use CCMS application.
 <summary>20250116</summary>
 After an intense period of relocation to Japan, I'm reigniting my passion and commitment to Child Care Management System. This journey isn't just about resuming work, it's about transforming challenges into opportunities, adapting to new environments, and proving that momentum can be rebuilt with strategic focus and determination. With renewed energy and insights gained from navigating international transitions, I'm ready to drive this project forward, bringing fresh perspectives and unwavering dedication to achieving this fantastic goal.### 20250116
 After an intense period of relocation to Japan, I'm reigniting my passion and commitment to Child Care Management System. This journey isn't just about resuming work, it's about transforming challenges into opportunities, adapting to new environments, and proving that momentum can be rebuilt with strategic focus and determination. With renewed energy and insights gained from navigating international transitions, I'm ready to drive this project forward, bringing fresh perspectives and unwavering dedication to achieving this fantastic goal.
+
 </details>
 
 ## Features

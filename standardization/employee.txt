@@ -1,0 +1,17 @@
+| Column Title           | Type                                        | Description                                                 |
+| ---------------------- | ------------------------------------------- | ----------------------------------------------------------- |
+| `First Name`           | Text                                        | Employee's first name.                                      |
+| `Last Name`            | Text                                        | Employee's last name.                                       |
+| `Email`                | Email                                       | Work or preferred email address.                            |
+| `Phone Number`         | Text                                        | Contact number.                                             |
+| `Department`           | Single Select                               | E.g., IT, Sales, Finance, Support.                          |
+| `Job Title`            | Text                                        | Their role (e.g., Technician, Project Manager).             |
+| `Employment Type`      | Single Select                               | Full-time, Part-time, Contractor, Intern, etc.              |
+| `Start Date`           | Date                                        | When they started.                                          |
+| `End Date`             | Date                                        | If applicable (for ex-employees).                           |
+| `Status`               | Single Select                               | Active / On Leave / Terminated.                             |
+| `Home Address`         | Long Text                                   | Optional, if you need it for tax or reimbursement purposes. |
+| `Payment method Used`  | Long Text (or Link to "Bank Details" table) | For reimbursements (optional — keep secure).                |
+| `Reimbursement Method` | Single Select                               | Bank Transfer, PayPal, Cash, etc.                           |
+| `Notes`                | Long Text                                   | Any HR or admin notes.                                      |
+| `Profile Picture`      | Image                                       | Optional for personalization.                               |
