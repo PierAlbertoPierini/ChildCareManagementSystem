@@ -360,6 +360,8 @@ The Child Care Management System is released under the MIT License.
 ## Acknowledgments
 We would like to express our gratitude to the developers and contributors of SeaTable, Rei3, NocoDB, NocoBase, and other open-source projects that have made this system possible.
 
+## Support us
+
 Support us on [Ko-fi] <a href='https://ko-fi.com/pieralberto' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
 
 
