@@ -134,7 +134,7 @@ Use NoCoDB's spreadsheet-like interface and form builder to adapt CCMS to your s
 </details>
 
 <details>
-<summary>Grist - Version 0.2</summary>
+<summary>Grist - Version 0.3</summary>
 
 Website: https://www.getgrist.com
 Github: https://github.com/gristlabs/grist-desktop
@@ -155,14 +155,14 @@ Launch the CCMS on Grist and start managing your child care center efficiently.
 
 | APPS Features          | **Available** | **Form** |
 | ---                    |    :---:      |          |
-| Inscription            |               |          |
-| Authority Inscription  |               |          |
-| Activity               |               |          |
+| Inscription            |     Yes       |   Yes    |
+| Authority Inscription  |     Yes       |   Yes    |
+| Activity               |     Yes       |          |
 | Reports                |               |          |
-| Staff Presences        |               |          |
+| Staff Presences        |     Yes       |          |
 | Child Presences        |               |          |
-| Employee Reimbursements|               |          |
-| Employee               |               |          |
+| Employee Reimbursements|     Yes       |   Yes    |
+| Employee               |     Yes       |          |
 
 </details>
 
