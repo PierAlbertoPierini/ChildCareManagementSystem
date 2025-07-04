@@ -167,7 +167,7 @@ Launch the CCMS on Grist and start managing your child care center efficiently.
 </details>
 
 <details>
-<summary>Reis3</summary>
+<summary>Rei3 - Version 0.0</summary>
 
 Visit: https://rei3.de/
 Docker file: https://github.com/r3-team/r3_docker/blob/main/README.md
